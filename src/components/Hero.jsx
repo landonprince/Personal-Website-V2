@@ -23,9 +23,9 @@ const Hero = () => {
       <div className="container relative" ref={parallaxRef}>
         <div className="relative z-1 max-w-[62rem] mx-auto text-center mb-[3.875rem] md:mb-20 lg:mb-[6.25rem]">
           <h1 className="h1 mb-6">
-            Exploring the New&nbsp;Frontier of&nbsp;Programming&nbsp;{` `}
+            Exploring the New&nbsp;Frontier of&nbsp;Programming&nbsp;
             <span className="inline-block relative">
-              Innovation{" "}
+              Innovation
               <img
                 src={curve}
                 className="absolute top-full left-0 w-full xl:-mt-2"
@@ -36,8 +36,8 @@ const Hero = () => {
             </span>
           </h1>
           <p className="body-1 max-w-3xl mx-auto mb-6 text-n-2 lg:mb-8">
-            My name is Landon Prince, and welcome to my personal website. Learn
-            about me, tour my portfolio, get in touch, and more.
+            My name is Landon Prince, and welcome to my personal website.
+            Learn&nbsp;about me, tour my portfolio, get in touch, and more.
           </p>
           <Button href="/pricing">Get started</Button>
         </div>

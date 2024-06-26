@@ -40,7 +40,9 @@ const Header = () => {
           href="#hero"
         >
           <img src={brainwave} width={45} height={40} alt="Brainwave" />
-          <p className="pl-2 text-[2rem] font-code font-semibold">Landon</p>
+          <p className="pl-[.4rem] text-[2rem] font-code font-bold tracking-tighter">
+            Landon
+          </p>
         </a>
 
         <nav
@@ -74,10 +76,10 @@ const Header = () => {
           href="#signup"
           className="button hidden mr-8 text-n-1/50 transition-colors hover:text-n-1 lg:block"
         >
-          New account
+          Resume
         </a>
         <Button className="hidden lg:flex" href="#login">
-          Sign in
+          Contact
         </Button>
 
         <Button

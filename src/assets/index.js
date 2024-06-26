@@ -74,8 +74,26 @@ import facebook from "./socials/facebook.svg";
 import instagram from "./socials/instagram.svg";
 import telegram from "./socials/telegram.svg";
 import twitter from "./socials/twitter.svg";
+import python from "./python.svg";
+import java from "./java.svg";
+import rust from "./rust.svg";
+import go from "./go.svg";
+import js from "./js.svg";
+import c from "./c.svg";
+import reactLogo from "./react-logo.svg";
+import htmlLogo from "./html-logo.svg";
+import cssLogo from "./css-logo.svg";
 
 export {
+  cssLogo,
+  htmlLogo,
+  reactLogo,
+  c,
+  js,
+  go,
+  rust,
+  java,
+  python,
   brainwave,
   check,
   check2,

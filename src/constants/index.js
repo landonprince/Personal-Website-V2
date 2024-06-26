@@ -34,22 +34,31 @@ import {
   telegram,
   twitter,
   yourlogo,
+  python,
+  java,
+  rust,
+  go,
+  js,
+  c,
+  reactLogo,
+  htmlLogo,
+  cssLogo,
 } from "../assets";
 
 export const navigation = [
   {
     id: "0",
-    title: "Features",
-    url: "#features",
+    title: "Home",
+    url: "#hero",
   },
   {
     id: "1",
-    title: "Pricing",
+    title: "About Me",
     url: "#pricing",
   },
   {
     id: "2",
-    title: "How to use",
+    title: "Portfolio",
     url: "#how-to-use",
   },
   {
@@ -65,7 +74,7 @@ export const navigation = [
   },
   {
     id: "5",
-    title: "Sign in",
+    title: "Contact",
     url: "#login",
     onlyMobile: true,
   },
@@ -75,7 +84,16 @@ export const heroIcons = [homeSmile, file02, searchMd, plusSquare];
 
 export const notificationImages = [notification4, notification3, notification2];
 
-export const companyLogos = [yourlogo, yourlogo, yourlogo, yourlogo, yourlogo];
+export const companyLogos = [
+  python,
+  java,
+  c,
+  rust,
+  js,
+  reactLogo,
+  htmlLogo,
+  cssLogo,
+];
 
 export const brainwaveServices = [
   "Photo generating",
@@ -244,16 +262,16 @@ export const pricing = [
 export const benefits = [
   {
     id: "0",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Pixalyze",
+    text: "Pixalyze is an easy-to-use command-line application. It allows for the use of an ever-growing collection of commands to analyze and process images.",
     backgroundUrl: "./src/assets/benefits/card-1.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
   },
   {
     id: "1",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
+    title: "PySlice",
+    text: "PySlice is an addictively fun 2D platformer made entirely with Python & Pygame. Play as a katana-wielding ninja and traverse treacherous worlds.",
     backgroundUrl: "./src/assets/benefits/card-2.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,
@@ -261,16 +279,16 @@ export const benefits = [
   },
   {
     id: "2",
-    title: "Connect everywhere",
-    text: "Connect with the AI chatbot from anywhere, on any device, making it more accessible and convenient.",
+    title: "Personal Website",
+    text: "This website displays my portfolio, information about me, and more in a visually appealing design using React & Tailwind.",
     backgroundUrl: "./src/assets/benefits/card-3.svg",
     iconUrl: benefitIcon3,
     imageUrl: benefitImage2,
   },
   {
     id: "3",
-    title: "Fast responding",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Mad Libs Generator",
+    text: "Mad Libs Generator is a program that allows the player to generate their own custom Mad Lib templates, and then fill in the blank spaces to create fun stories.",
     backgroundUrl: "./src/assets/benefits/card-4.svg",
     iconUrl: benefitIcon4,
     imageUrl: benefitImage2,
@@ -278,16 +296,16 @@ export const benefits = [
   },
   {
     id: "4",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "ChatFlow Manager",
+    text: "ChatFlow manager is a program that allows the user to store, retrieve, and manipulate messages.",
     backgroundUrl: "./src/assets/benefits/card-5.svg",
     iconUrl: benefitIcon1,
     imageUrl: benefitImage2,
   },
   {
     id: "5",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
+    title: "Image To ASCII",
+    text: "Image to ASCII is a program that uses the OpenCV library to allow users to convert any image to high-quality ASCII art.",
     backgroundUrl: "./src/assets/benefits/card-6.svg",
     iconUrl: benefitIcon2,
     imageUrl: benefitImage2,

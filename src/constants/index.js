@@ -43,6 +43,7 @@ import {
   reactLogo,
   htmlLogo,
   cssLogo,
+  cpp,
 } from "../assets";
 
 export const navigation = [
@@ -87,7 +88,7 @@ export const notificationImages = [notification4, notification3, notification2];
 export const companyLogos = [
   python,
   java,
-  c,
+  cpp,
   rust,
   js,
   reactLogo,
@@ -226,9 +227,9 @@ export const collabApps = [
 export const pricing = [
   {
     id: "0",
-    title: "Basic",
-    description: "AI chatbot, personalized recommendations",
-    price: "0",
+    title: "High School",
+    description:
+      "Graduated from Highland Park High School, located in Dallas, TX, in 2022",
     features: [
       "An AI chatbot that can understand your queries",
       "Personalized recommendations based on your preferences",
@@ -237,9 +238,9 @@ export const pricing = [
   },
   {
     id: "1",
-    title: "Premium",
-    description: "Advanced AI chatbot, priority support, analytics dashboard",
-    price: "9.99",
+    title: "Vanderbilt University",
+    description:
+      "Will graduate from Vanderbilt University, located in Nashville, TN, in 2023",
     features: [
       "An advanced AI chatbot that can understand complex queries",
       "An analytics dashboard to track your conversations",
@@ -248,9 +249,8 @@ export const pricing = [
   },
   {
     id: "2",
-    title: "Enterprise",
-    description: "Custom AI chatbot, advanced analytics, dedicated account",
-    price: null,
+    title: "Beyond",
+    description: "Planning to pursue a career in software development ",
     features: [
       "An AI chatbot that can understand your queries",
       "Personalized recommendations based on your preferences",
@@ -265,50 +265,56 @@ export const benefits = [
     title: "Pixalyze",
     text: "Pixalyze is an easy-to-use command-line application. It allows for the use of an ever-growing collection of commands to analyze and process images.",
     backgroundUrl: "./src/assets/benefits/card-1.svg",
-    iconUrl: benefitIcon1,
+    iconUrl: cpp,
     imageUrl: benefitImage2,
+    githubUrl: "https://github.com/landonprince/Pixalyze",
   },
   {
     id: "1",
     title: "PySlice",
     text: "PySlice is an addictively fun 2D platformer made entirely with Python & Pygame. Play as a katana-wielding ninja and traverse treacherous worlds.",
     backgroundUrl: "./src/assets/benefits/card-2.svg",
-    iconUrl: benefitIcon2,
+    iconUrl: python,
     imageUrl: benefitImage2,
     light: true,
+    githubUrl: "https://github.com/landonprince/PySlice",
   },
   {
     id: "2",
-    title: "Personal Website",
-    text: "This website displays my portfolio, information about me, and more in a visually appealing design using React & Tailwind.",
-    backgroundUrl: "./src/assets/benefits/card-3.svg",
-    iconUrl: benefitIcon3,
-    imageUrl: benefitImage2,
-  },
-  {
-    id: "3",
     title: "Mad Libs Generator",
     text: "Mad Libs Generator is a program that allows the player to generate their own custom Mad Lib templates, and then fill in the blank spaces to create fun stories.",
     backgroundUrl: "./src/assets/benefits/card-4.svg",
-    iconUrl: benefitIcon4,
+    iconUrl: java,
+    imageUrl: benefitImage2,
+    githubUrl: "https://github.com/landonprince/Mad-Libs-Generator",
+  },
+  {
+    id: "3",
+    title: "Personal Website",
+    text: "This website displays my portfolio, information about me, and more in a visually appealing design using React & Tailwind.",
+    backgroundUrl: "./src/assets/benefits/card-3.svg",
+    iconUrl: reactLogo,
     imageUrl: benefitImage2,
     light: true,
+    githubUrl: "https://github.com/landonprince/websiteV2",
   },
   {
     id: "4",
     title: "ChatFlow Manager",
     text: "ChatFlow manager is a program that allows the user to store, retrieve, and manipulate messages.",
     backgroundUrl: "./src/assets/benefits/card-5.svg",
-    iconUrl: benefitIcon1,
+    iconUrl: java,
     imageUrl: benefitImage2,
+    githubUrl: "https://github.com/landonprince/Chat-Flow-Manager",
   },
   {
     id: "5",
     title: "Image To ASCII",
     text: "Image to ASCII is a program that uses the OpenCV library to allow users to convert any image to high-quality ASCII art.",
     backgroundUrl: "./src/assets/benefits/card-6.svg",
-    iconUrl: benefitIcon2,
+    iconUrl: cpp,
     imageUrl: benefitImage2,
+    githubUrl: "https://github.com/landonprince/Image-To-ASCII-Converter",
   },
 ];
 

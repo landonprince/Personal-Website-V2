@@ -83,8 +83,10 @@ import c from "./c.svg";
 import reactLogo from "./react-logo.svg";
 import htmlLogo from "./html-logo.svg";
 import cssLogo from "./css-logo.svg";
+import cpp from "./cpp.svg";
 
 export {
+  cpp,
   cssLogo,
   htmlLogo,
   reactLogo,

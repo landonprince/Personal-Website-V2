@@ -7,17 +7,17 @@ import ClipPath from "../assets/svg/ClipPath";
 
 const Benefits = () => {
   return (
-    <Section id="features">
+    <Section crosses id="features">
       <div className="container relative z-2">
         <Heading
           className="md:max-w-md lg:max-w-2xl"
-          title="Dive Into my Portfolio of Diverse Projects "
+          title="Delve into my portfolio of diverse projects"
         />
 
         <div className="flex flex-wrap gap-10 mb-10">
           {benefits.map((item) => (
             <div
-              className="block relative p-0.5 bg-no-repeat bg-[length:100%_100%] md:max-w-[24rem]"
+              className="block relative p-0.5 bg-no-repeat bg-[length:100%_100%] md:max-w-[24rem] group"
               style={{
                 backgroundImage: `url(${item.backgroundUrl})`,
               }}
@@ -33,9 +33,14 @@ const Benefits = () => {
                     height={48}
                     alt={item.title}
                   />
-                  <p className="ml-auto font-code text-xs font-bold text-n-1 uppercase tracking-wider">
-                    Explore more
-                  </p>
+                  <a
+                    href={item.githubUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="ml-auto font-code text-xs font-bold text-n-1 uppercase tracking-wider transition-colors hover:text-color-1 pointer-events-auto"
+                  >
+                    Explore on GitHub
+                  </a>
                   <Arrow />
                 </div>
               </div>
@@ -46,7 +51,7 @@ const Benefits = () => {
                 className="absolute inset-0.5 bg-n-8"
                 style={{ clipPath: "url(#benefits)" }}
               >
-                <div className="absolute inset-0 opacity-0 transition-opacity hover:opacity-10">
+                <div className="absolute inset-0 opacity-0 transition-opacity group-hover:opacity-10">
                   {item.imageUrl && (
                     <img
                       src={item.imageUrl}

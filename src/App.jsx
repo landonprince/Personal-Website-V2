@@ -14,10 +14,11 @@ const App = () => {
       <div className="pt-[4.75] lg:pt-[5.25rem] overflow-hidden">
         <Header />
         <Hero />
+        <Pricing />
+
         <Benefits />
         <Collaboration />
         <Services />
-        <Pricing />
         <Roadmap />
         <Footer />
       </div>

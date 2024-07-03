@@ -37,9 +37,9 @@ const Hero = () => {
           </h1>
           <p className="body-1 max-w-3xl mx-auto mb-6 text-n-2 lg:mb-8">
             My name is Landon Prince, and welcome to my personal website.
-            Learn&nbsp;about me, tour my portfolio, get in touch, and more.
+            Learn&nbsp;about me, see my portfolio, get in touch, and more.
           </p>
-          <Button href="/pricing">Get started</Button>
+          <Button href="#pricing">Take&nbsp;Tour</Button>
         </div>
         <div className="relative max-w-[23rem] mx-auto md:max-w-5xl xl:mb-24">
           <div className="relative z-1 p-0.5 rounded-2xl bg-conic-gradient">
@@ -57,6 +57,12 @@ const Hero = () => {
 
                 <Generating className="absolute left-4 right-4 bottom-5 md:left-1/2 md:right-auto md:bottom-8 md:w-[31rem] md:-translate-x-1/2" />
 
+                {/* <ScrollParallax isAbsolutelyPositioned>
+                  <Notification
+                    className="hidden absolute -left-[5.5rem] bottom-[7.5rem] w-[18rem] xl:flex"
+                    title="Team Skills"
+                  />
+                </ScrollParallax> */}
                 <ScrollParallax isAbsolutelyPositioned>
                   <ul className="hidden absolute -left-[5.5rem] bottom-[8rem] px-1 py-1 bg-n-9/40 backdrop-blur border border-n-1/10 rounded-2xl xl:flex">
                     {heroIcons.map((icon, index) => (

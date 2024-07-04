@@ -228,33 +228,40 @@ export const pricing = [
   {
     id: "0",
     title: "High School",
+    price: "2019 - 2022",
     description:
-      "Graduated from Highland Park High School, located in Dallas, TX, in 2022",
+      "Graduated from Highland Park High School, located in Dallas, Texas",
     features: [
-      "An AI chatbot that can understand your queries",
-      "Personalized recommendations based on your preferences",
-      "Ability to explore the app and its features without any cost",
+      "Began learning the fundamentals of computer science",
+      "Graduated Magna Cum Laude with a GPA of 4.23 / 5.00",
+      "Earned the AP Scholar award, having taken 9 AP courses ",
+      "Active member of the Computer Science National Honor Society ",
     ],
   },
   {
     id: "1",
     title: "Vanderbilt University",
+    price: "2022 - 2026",
     description:
-      "Will graduate from Vanderbilt University, located in Nashville, TN, in 2023",
+      "Expected to graduate from Vanderbilt University, located in Nashville, Tennessee",
     features: [
-      "An advanced AI chatbot that can understand complex queries",
-      "An analytics dashboard to track your conversations",
-      "Priority support to solve issues quickly",
+      "Majoring in Computer Science through the Vanderbilt School of Engineering",
+      "Minoring in business through the Hoogland Business Program",
+      "Received the dean's list honor in 2023 & 2024 for my performance",
+      "Active member of the Pi Kappa Alpha fraternity & network",
     ],
   },
   {
     id: "2",
     title: "Beyond",
-    description: "Planning to pursue a career in software development ",
+    price: "2026 ++",
+    description:
+      "Planning to pursue a career in software development and engineering",
     features: [
-      "An AI chatbot that can understand your queries",
-      "Personalized recommendations based on your preferences",
-      "Ability to explore the app and its features without any cost",
+      "Thrilled to apply my programming knowledge to my career",
+      "Dedicated to evolving the technology sector",
+      "Will continue to develop my personal portfolio & skills",
+      "Committed to bringing a blend of curiosity & collaborative spirit",
     ],
   },
 ];

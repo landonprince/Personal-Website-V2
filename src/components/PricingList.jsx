@@ -1,4 +1,4 @@
-import { check, vanderbilt } from "../assets";
+import { check } from "../assets";
 import { pricing } from "../constants";
 import Button from "./Button";
 
@@ -15,13 +15,21 @@ const PricingList = () => {
             {item.description}
           </p>
 
-          {/* <Button
+          <div className="flex items-center h-[5.5rem] mb-6">
+            {item.price && (
+              <>
+                <div className="text-[2.3rem]  leading-none font-bold">
+                  {item.price}
+                </div>
+              </>
+            )}
+          </div>
+          <Button
             className="w-full mb-6"
             href={item.price ? "/pricing" : "mailto:contact@jsmastery.pro"}
-            white={!!item.price}
           >
-            {item.price ? "Get started" : "Contact us"}
-          </Button> */}
+            Explore
+          </Button>
 
           <ul>
             {item.features.map((feature, index) => (

@@ -8,16 +8,35 @@ import {
   VideoBar,
   VideoChatMessage,
 } from "./design/Services";
-
+import { smallSphere, stars } from "../assets";
 import Generating from "./Generating";
 
 const Services = () => {
   return (
     <Section id="how-to-use">
       <div className="container">
+        <div className="hidden relative justify-center mb-[6.5rem] lg:flex">
+          <img
+            src={smallSphere}
+            className="relative z-1"
+            width={255}
+            height={255}
+            alt="Sphere"
+          />
+          <div className="absolute top-1/2 left-1/2 w-[60rem] -translate-x-1/2 -translate-y-1/2 pointer-events-none">
+            <img
+              src={stars}
+              className="w-full"
+              width={950}
+              height={400}
+              alt="Stars"
+            />
+          </div>
+        </div>
+
         <Heading
-          title="Generative AI made for creators."
-          text="Brainwave unlocks the potential of AI-powered applications"
+          title="Hello, my name is Landon"
+          text="Computer science undergraduate at Vanderbilt University"
         />
 
         <div className="relative">
@@ -32,8 +51,8 @@ const Services = () => {
               />
             </div>
 
-            <div className="relative z-1 max-w-[17rem] ml-auto">
-              <h4 className="h4 mb-4">Smartest AI</h4>
+            <div className="relative z-1 max-w-[20rem] ml-auto">
+              <h4 className="h4 mb-4">A profound passion</h4>
               <p className="body-2 mb-[3rem] text-n-3">
                 Brainwave unlocks the potential of AI-powered applications
               </p>
@@ -49,8 +68,6 @@ const Services = () => {
                 ))}
               </ul>
             </div>
-
-            <Generating className="absolute left-4 right-4 bottom-4 border-n-1/10 border lg:left-1/2 lg-right-auto lg:bottom-8 lg:-translate-x-1/2" />
           </div>
 
           <div className="relative z-1 grid gap-5 lg:grid-cols-2">

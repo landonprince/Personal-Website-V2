@@ -35,6 +35,7 @@ const Services = () => {
         </div>
 
         <Heading
+          tag="About Me"
           title="Hello, my name is Landon"
           text="Computer science undergraduate at Vanderbilt University"
         />
@@ -54,7 +55,8 @@ const Services = () => {
             <div className="relative z-1 max-w-[20rem] ml-auto">
               <h4 className="h4 mb-4">A profound passion</h4>
               <p className="body-2 mb-[3rem] text-n-3">
-                Brainwave unlocks the potential of AI-powered applications
+                Driven by a passion for computer science, I strive to advance my
+                expertise and create innovative tech solutions.
               </p>
               <ul className="body-2">
                 {brainwaveServices.map((item, index) => (
@@ -67,6 +69,11 @@ const Services = () => {
                   </li>
                 ))}
               </ul>
+              <img
+                class="w-96 h-auto py-6"
+                src="https://github-readme-stats.vercel.app/api/top-langs/?username=landonprince&layout=compact&bg_color=15131d&title_color=ffffff&text_color=ada8c3&hide_border=true"
+                alt="Placeholder image"
+              />
             </div>
           </div>
 

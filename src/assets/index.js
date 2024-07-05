@@ -84,8 +84,10 @@ import reactLogo from "./react-logo.svg";
 import htmlLogo from "./html-logo.svg";
 import cssLogo from "./css-logo.svg";
 import cpp from "./cpp.svg";
+import vandy from "./vandy.png";
 
 export {
+  vandy,
   cpp,
   cssLogo,
   htmlLogo,

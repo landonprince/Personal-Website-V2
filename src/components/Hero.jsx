@@ -62,7 +62,7 @@ const Hero = () => {
 
                 <ScrollParallax isAbsolutelyPositioned>
                   <Stats
-                    className="hidden absolute -left-[5.5rem] bottom-[7.5rem] w-[18rem] xl:flex"
+                    className="hidden absolute -left-[5.2rem] bottom-[7.7rem] w-[18rem] xl:flex"
                     title="Team Skills"
                   />
                 </ScrollParallax>
@@ -78,7 +78,7 @@ const Hero = () => {
 
                 <ScrollParallax isAbsolutelyPositioned>
                   <Notification
-                    className="hidden absolute -right-[6rem] bottom-[10.5rem] w-[18rem] xl:flex"
+                    className="hidden absolute -right-[5.1rem] bottom-[10.5rem] w-[18rem] xl:flex"
                     title="AI Development"
                   />
                 </ScrollParallax>

@@ -63,7 +63,7 @@ const Header = () => {
           href="#hero"
         >
           <img src={brainwave} width={45} height={40} alt="Brainwave" />
-          <p className="pl-[.4rem] text-[2rem] font-code font-bold tracking-tighter">
+          <p className="pl-[.4rem] text-[2rem] font-code font-extrabold tracking-tighter">
             Landon
           </p>
         </a>
@@ -107,7 +107,7 @@ const Header = () => {
         >
           {githubSvg}
         </a>
-        <Button className="hidden lg:flex" href="#login">
+        <Button className="hidden lg:flex w-28" href="#login">
           Contact
         </Button>
 

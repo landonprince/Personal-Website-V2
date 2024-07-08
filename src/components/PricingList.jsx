@@ -15,10 +15,10 @@ const PricingList = () => {
             {item.description}
           </p>
 
-          <div className="flex items-center h-[5.5rem] mb-6">
+          <div className="flex  items-center h-[5.5rem] mb-6">
             {item.price && (
               <>
-                <div className="text-[2.3rem]  leading-none font-bold">
+                <div className="text-[3rem]  leading-none font-bold">
                   {item.price}
                 </div>
               </>
@@ -38,7 +38,7 @@ const PricingList = () => {
                 className="flex items-start py-5 border-t border-n-6"
               >
                 <img src={check} width={24} height={24} alt="Check" />
-                <p className="body-2 ml-4">{feature}</p>
+                <p className="body-2 ml-4 text-n-3">{feature}</p>
               </li>
             ))}
           </ul>

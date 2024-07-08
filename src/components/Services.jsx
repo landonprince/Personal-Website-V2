@@ -1,7 +1,11 @@
 import Section from "./Section";
 import Heading from "./Heading";
 import { service1, service2, service3, check } from "../assets";
-import { brainwaveServices, brainwaveServicesIcons } from "../constants";
+import {
+  brainwaveServices,
+  brainwaveServices2,
+  brainwaveServicesIcons,
+} from "../constants";
 import {
   PhotoChatMessage,
   Gradient,
@@ -58,22 +62,7 @@ const Services = () => {
                 Driven by a passion for computer science, I strive to advance my
                 expertise and create innovative tech solutions.
               </p>
-              <ul className="body-2">
-                {brainwaveServices.map((item, index) => (
-                  <li
-                    key={index}
-                    className="flex items-start py-4 border-t border-n-6"
-                  >
-                    <img width={24} height={24} src={check} />
-                    <p className="ml-4">{item}</p>
-                  </li>
-                ))}
-              </ul>
-              <img
-                class="w-96 h-auto py-6"
-                src="https://github-readme-stats.vercel.app/api/top-langs/?username=landonprince&layout=compact&bg_color=15131d&title_color=ffffff&text_color=ada8c3&hide_border=true"
-                alt="Placeholder image"
-              />
+              <h4 className="h4 mb-4">My skills</h4>
             </div>
           </div>
 
@@ -89,15 +78,36 @@ const Services = () => {
                 />
               </div>
 
-              <div className="absolute inset-0 flex flex-col justify-end p-8 bg-gradient-to-b from-n-8/0 to-n-8/90 lg:p-15">
-                <h4 className="h4 mb-4">Photo editing</h4>
-                <p className="body-2 mb-[3rem] text-n-3">
-                  Automatically enhance your photos using our AI app&apos;s
-                  photo editing feature. Try it now!
-                </p>
+              <div className="absolute inset-0 justify-center flex flex-col p-8 bg-gradient-to-b from-n-8/0 to-n-8/90 lg:p-10">
+                <h4 className="h4 mb-4 font-bold">Experience</h4>
+
+                <ul className="body-2">
+                  {brainwaveServices2.map((item, index) => (
+                    <li
+                      key={index}
+                      className="flex items-start py-4 border-t border-n-6 w-[17rem]"
+                    >
+                      <img width={24} height={24} src={check} />
+                      <p className="ml-4">{item}</p>
+                    </li>
+                  ))}
+                </ul>
+                <h4 className="h4 mb-4 font-semibold mt-10">Skills</h4>
+
+                <ul className="body-2">
+                  {brainwaveServices.map((item, index) => (
+                    <li
+                      key={index}
+                      className="flex items-start py-4 border-t border-n-6 w-[17rem]"
+                    >
+                      <img width={24} height={24} src={check} />
+                      <p className="ml-4">{item}</p>
+                    </li>
+                  ))}
+                </ul>
               </div>
 
-              <PhotoChatMessage />
+              {/* <PhotoChatMessage /> */}
             </div>
 
             <div className="p-4 bg-n-7 rounded-3xl overflow-hidden lg:min-h-[46rem]">

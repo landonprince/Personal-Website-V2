@@ -97,9 +97,15 @@ export const companyLogos = [
 ];
 
 export const brainwaveServices = [
-  "Photo generating",
-  "Photo enhance",
-  "Seamless Integration",
+  "Software Engineering",
+  "Artificial Intelligence",
+  "Programming Languages",
+];
+
+export const brainwaveServices2 = [
+  "Intermediate Software Design",
+  "Data Structures & Algorithms",
+  "Discrete Structures",
 ];
 
 export const brainwaveServicesIcons = [
@@ -169,14 +175,14 @@ export const collabApps = [
   {
     id: "0",
     title: "Figma",
-    icon: figma,
+    icon: python,
     width: 26,
     height: 36,
   },
   {
     id: "1",
     title: "Notion",
-    icon: notion,
+    icon: java,
     width: 34,
     height: 36,
   },
@@ -246,15 +252,15 @@ export const pricing = [
       "Expected to graduate from Vanderbilt University, located in Nashville, Tennessee",
     features: [
       "Majoring in Computer Science through the Vanderbilt School of Engineering",
-      "Minoring in business through the Hoogland Business Program",
-      "Received the dean's list honor in 2023 & 2024 for my performance",
+      "Minoring in Business through the Hoogland Business Program",
+      "Received the Dean's List Honor in 2023 & 2024 for high GPA",
       "Active member of the Pi Kappa Alpha fraternity & network",
     ],
   },
   {
     id: "2",
     title: "Beyond",
-    price: "2026 ++",
+    price: "2026 + +",
     description:
       "Planning to pursue a career in software development and engineering",
     features: [

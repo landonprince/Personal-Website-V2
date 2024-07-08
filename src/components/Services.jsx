@@ -40,7 +40,7 @@ const Services = () => {
 
         <Heading
           tag="About Me"
-          title="Hello, my name is Landon"
+          title="Hello, I'm Landon"
           text="Computer science undergraduate at Vanderbilt University"
         />
 
@@ -79,7 +79,7 @@ const Services = () => {
               </div>
 
               <div className="absolute inset-0 justify-center flex flex-col p-8 bg-gradient-to-b from-n-8/0 to-n-8/90 lg:p-10">
-                <h4 className="h4 mb-4 font-bold">Experience</h4>
+                <h4 className="h4 mb-4">Experience</h4>
 
                 <ul className="body-2">
                   {brainwaveServices2.map((item, index) => (
@@ -88,11 +88,11 @@ const Services = () => {
                       className="flex items-start py-4 border-t border-n-6 w-[17rem]"
                     >
                       <img width={24} height={24} src={check} />
-                      <p className="ml-4">{item}</p>
+                      <p className="ml-4 text-n-3">{item}</p>
                     </li>
                   ))}
                 </ul>
-                <h4 className="h4 mb-4 font-semibold mt-10">Skills</h4>
+                <h4 className="h4 mb-4 mt-10">Skills</h4>
 
                 <ul className="body-2">
                   {brainwaveServices.map((item, index) => (
@@ -101,7 +101,7 @@ const Services = () => {
                       className="flex items-start py-4 border-t border-n-6 w-[17rem]"
                     >
                       <img width={24} height={24} src={check} />
-                      <p className="ml-4">{item}</p>
+                      <p className="ml-4 text-n-3">{item}</p>
                     </li>
                   ))}
                 </ul>

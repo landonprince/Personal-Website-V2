@@ -40,7 +40,7 @@ const Hero = () => {
             My name is Landon Prince, and welcome to my personal website.
             Learn&nbsp;about me, see my portfolio, get in touch, and more.
           </p>
-          <Button className="w-60" href="#pricing">
+          <Button className="w-60" href="#how-to-use">
             Take&nbsp;Tour
           </Button>
         </div>

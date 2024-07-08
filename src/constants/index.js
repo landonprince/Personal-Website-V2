@@ -253,7 +253,7 @@ export const pricing = [
     features: [
       "Majoring in Computer Science through the Vanderbilt School of Engineering",
       "Minoring in Business through the Hoogland Business Program",
-      "Received the Dean's List Honor in 2023 & 2024 for high GPA",
+      "Received the Dean's List Honor in 2023 & 2024",
       "Active member of the Pi Kappa Alpha fraternity & network",
     ],
   },

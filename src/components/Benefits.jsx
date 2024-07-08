@@ -11,7 +11,9 @@ const Benefits = () => {
       <div className="container relative z-2">
         <Heading
           className="md:max-w-md lg:max-w-2xl"
-          title="Delve into my portfolio of diverse projects"
+          title="Delve Into my Portfolio"
+          tag="portfolio"
+          text="6+ diverse projects using various languages"
         />
 
         <div className="flex flex-wrap gap-10 mb-10">

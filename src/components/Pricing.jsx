@@ -6,15 +6,12 @@ import { LeftLine, RightLine } from "./design/Pricing";
 
 const Pricing = () => {
   return (
-    <Section
-      className="overflow-hidden"
-      id="pricing"
-      customPaddings="pt-6 pb-20"
-    >
+    <Section className="overflow-hidden" id="pricing" customPaddings="pb-20">
       <div className="container relative z-2">
         <Heading
-          tag="full-stack developer"
-          title="Learn about my academic journey & beyond"
+          tag="about me"
+          title="Explore my Academic Journey"
+          text="Key information of high school, college, and whats to come"
         />
 
         <div className="relative">

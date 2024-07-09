@@ -3,17 +3,24 @@ import { collabApps, collabContent, collabText } from "../constants";
 import Button from "./Button";
 import Section from "./Section";
 import { LeftCurve, RightCurve } from "./design/Collaboration";
+import Heading from "./Heading";
 
 const Collaboration = () => {
   return (
-    <Section crosses>
+    <Section crosses customPaddings="pt-28 pb-28">
+      <Heading
+        className="md:max-w-md lg:max-w-2xl pl-5"
+        title="Delve Into my Portfolio"
+        tag="portfolio"
+        text="6+ diverse projects using various languages"
+      />
       <div className="container lg:flex">
         <div className="max-w-[25rem]">
-          <h2 className="h2 mb-4 md:mb-8">
-            AI Chat App for seamless collaboration
-          </h2>
+          <h4 className="lg:h4 text-2xl mb-4 md:mb-8 ">
+            Key skills incorporated into each project
+          </h4>
 
-          <ul className="max-w-[22rem] mb-10 md:mb-14 pb-2">
+          <ul className="max-w-[22rem] mb-10 md:mb-14 pb-14">
             {collabContent.map((item) => (
               <li className="mb-3 py-3" key={item.id}>
                 <div className="flex items-center">

@@ -31,9 +31,7 @@ const Benefits = () => {
                 <h5 className="h5 mb-5" style={{ color: item.color }}>
                   {item.title}
                 </h5>
-                <p className="body-2 mb-6 text-n-3 text-[#ff716c]">
-                  {item.text}
-                </p>
+                <p className="body-2 mb-6 text-n-3">{item.text}</p>
                 <div className="flex items-center mt-auto">
                   <img
                     src={item.iconUrl}

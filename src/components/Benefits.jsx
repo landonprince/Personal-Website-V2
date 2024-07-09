@@ -7,7 +7,7 @@ import ClipPath from "../assets/svg/ClipPath";
 
 const Benefits = () => {
   return (
-    <Section crosses id="features">
+    <Section id="features" customPaddings="pt-0">
       <div className="container relative z-2">
         <Heading
           className="md:max-w-md lg:max-w-2xl"
@@ -19,7 +19,7 @@ const Benefits = () => {
         <div className="flex flex-wrap gap-10 mb-10">
           {benefits.map((item) => (
             <div
-              className="border-[0.01rem] border-[#55536385] rounded-[2rem] block relative p-0.5 bg-no-repeat bg-[length:100%_100%] md:max-w-[24rem] group"
+              className="border-[0.01rem] border-[#423d6385] rounded-[2rem] block relative p-0.5 bg-no-repeat bg-[length:100%_100%] md:max-w-[24rem] group"
               style={
                 {
                   // backgroundImage: `url(${item.backgroundUrl})`,

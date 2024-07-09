@@ -6,7 +6,11 @@ import { LeftLine, RightLine } from "./design/Pricing";
 
 const Pricing = () => {
   return (
-    <Section className="overflow-hidden" id="pricing" customPaddings="pb-20">
+    <Section
+      className="overflow-hidden"
+      id="pricing"
+      customPaddings="pb-28 pt-20"
+    >
       <div className="container relative z-2">
         <Heading
           tag="about me"

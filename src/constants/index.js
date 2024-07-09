@@ -287,6 +287,7 @@ export const benefits = [
     iconUrl: cpp,
     imageUrl: benefitImage2,
     githubUrl: "https://github.com/landonprince/Pixalyze",
+    color: "#13d0ff",
   },
   {
     id: "1",
@@ -297,6 +298,7 @@ export const benefits = [
     imageUrl: benefitImage2,
     light: true,
     githubUrl: "https://github.com/landonprince/PySlice",
+    color: "#ffd67e",
   },
   {
     id: "2",
@@ -306,6 +308,7 @@ export const benefits = [
     iconUrl: java,
     imageUrl: benefitImage2,
     githubUrl: "https://github.com/landonprince/Mad-Libs-Generator",
+    color: "#c3f887",
   },
   {
     id: "3",
@@ -316,6 +319,7 @@ export const benefits = [
     imageUrl: benefitImage2,
     light: true,
     githubUrl: "https://github.com/landonprince/websiteV2",
+    color: "#AC6AFF",
   },
   {
     id: "4",
@@ -325,6 +329,7 @@ export const benefits = [
     iconUrl: java,
     imageUrl: benefitImage2,
     githubUrl: "https://github.com/landonprince/Chat-Flow-Manager",
+    color: "#ff716c",
   },
   {
     id: "5",
@@ -334,6 +339,7 @@ export const benefits = [
     iconUrl: cpp,
     imageUrl: benefitImage2,
     githubUrl: "https://github.com/landonprince/Image-To-ASCII-Converter",
+    color: "#6991ff",
   },
 ];
 

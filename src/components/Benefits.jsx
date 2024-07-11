@@ -11,20 +11,18 @@ const Benefits = () => {
       <div className="container relative z-2">
         <Heading
           className="md:max-w-md lg:max-w-2xl"
-          title="My top Projects "
+          title="My Greatest Projects "
           tag="portfolio"
-          text="6+ diverse projects using various languages"
+          text="6+ diverse projects "
         />
 
         <div className="flex flex-wrap gap-10 mb-10">
           {benefits.map((item) => (
             <div
               className="border-[0.01rem] border-[#423d6385] rounded-[2rem] block relative p-0.5 bg-no-repeat bg-[length:100%_100%] md:max-w-[24rem] group"
-              style={
-                {
-                  // backgroundImage: `url(${item.backgroundUrl})`,
-                }
-              }
+              style={{
+                backgroundImage: `url(${item.backgroundUrl})`,
+              }}
               key={item.id}
             >
               <div className="relative z-2 flex flex-col min-h-[22rem] p-[2.4rem] pointer-events-none">

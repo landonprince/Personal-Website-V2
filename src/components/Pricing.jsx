@@ -9,7 +9,7 @@ const Pricing = () => {
     <Section
       className="overflow-hidden"
       id="pricing"
-      customPaddings="pb-28 pt-20"
+      customPaddings="pb-28 pt-16"
     >
       <div className="container relative z-2">
         <Heading

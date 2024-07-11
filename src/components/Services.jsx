@@ -14,6 +14,8 @@ import {
 } from "./design/Services";
 import { smallSphere, stars } from "../assets";
 import Generating from "./Generating";
+import Photo from "./Photo";
+import { ScrollParallax } from "react-just-parallax";
 
 const Services = () => {
   return (
@@ -55,6 +57,10 @@ const Services = () => {
                 src={service1}
               />
             </div>
+            <Photo
+              className="hidden absolute left-[3rem] bottom-[2.7rem] w-[18rem] xl:flex"
+              title="Team Skills"
+            />
 
             <div className="relative z-1 max-w-[20rem] ml-auto">
               <h4 className="h4 mb-4">A profound passion</h4>
@@ -112,7 +118,7 @@ const Services = () => {
 
             <div className="p-4 bg-n-7 rounded-3xl overflow-hidden lg:min-h-[46rem]">
               <div className="py-12 px-4 xl:px-8">
-                <h4 className="h4 mb-4">Video generation</h4>
+                <h4 className="h4 mb-4">AI Architect & Researcher</h4>
                 <p className="body-2 mb-[2rem] text-n-3">
                   The world’s most powerful AI photo and video art generation
                   engine. What will you create?

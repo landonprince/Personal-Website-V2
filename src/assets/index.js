@@ -72,6 +72,7 @@ import benefitImage3 from "./benefits/image-3.png";
 import benefitImage4 from "./benefits/image-4.png";
 import benefitImage5 from "./benefits/image-5.png";
 import benefitImage6 from "./benefits/image-6.png";
+import benefitImage7 from "./benefits/image-7.jpg";
 
 import discordBlack from "./socials/discord.svg";
 import facebook from "./socials/facebook.svg";
@@ -90,8 +91,11 @@ import cssLogo from "./css-logo.svg";
 import cpp from "./cpp.svg";
 import vandy from "./vandy.png";
 import dash from "./dash.svg";
+import photo from "./photo.png";
 
 export {
+  photo,
+  benefitImage7,
   benefitImage6,
   benefitImage5,
   benefitImage4,

@@ -54,6 +54,7 @@ import {
   benefitImage4,
   benefitImage5,
   benefitImage6,
+  benefitImage7,
 } from "../assets";
 
 export const navigation = [
@@ -113,7 +114,7 @@ export const brainwaveServices = [
 ];
 
 export const brainwaveServices2 = [
-  "Intermediate Software Design",
+  "Software Design",
   "Data Structures & Algorithms",
   "Discrete Structures",
 ];
@@ -163,21 +164,23 @@ export const roadmap = [
 ];
 
 export const collabText =
-  "With smart automation and top-notch security, it's the perfect solution for teams looking to work smarter.";
+  "Each project in my portfolio is a testament to my dedication to writing clean, efficient code and solving real-world problems.  ";
 
 export const collabContent = [
   {
     id: "0",
-    title: "Seamless Integration",
-    text: "test",
+    title: "Problem-Solving",
+    text: "Analyzing complex problems, breaking them down into smaller parts, and devising effective solutions.",
   },
   {
     id: "1",
-    title: "Smart Automation",
+    title: "Debugging & Testing",
+    text: "Identifying and fixing bugs in the code, as well as writing and executing tests to ensure the software works as intended.",
   },
   {
     id: "2",
-    title: "Top-notch Security",
+    title: "Software Design Patterns",
+    text: "Promoting code reusability, modularity, and elegance through the use of tried-and-true design patterns.",
   },
 ];
 
@@ -328,7 +331,7 @@ export const benefits = [
   {
     id: "4",
     title: "ChatFlow Manager",
-    text: "ChatFlow manager is a program that allows the user to store, retrieve, and manipulate messages.",
+    text: "ChatFlow manager is a program that allows the user to store, retrieve, and manipulate messages. The use of software design patterns is emphasized.",
     backgroundUrl: benefitCard5,
     iconUrl: java,
     imageUrl: benefitImage6,
@@ -341,7 +344,7 @@ export const benefits = [
     text: "Image to ASCII is a program that uses the OpenCV library to allow users to convert any image to high-quality ASCII art.",
     backgroundUrl: benefitCard6,
     iconUrl: cpp,
-    imageUrl: benefitImage2,
+    imageUrl: benefitImage7,
     githubUrl: "https://github.com/landonprince/Image-To-ASCII-Converter",
     color: "#6991ff",
   },

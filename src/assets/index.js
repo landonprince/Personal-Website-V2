@@ -72,7 +72,7 @@ import benefitImage3 from "./benefits/image-3.png";
 import benefitImage4 from "./benefits/image-4.png";
 import benefitImage5 from "./benefits/image-5.png";
 import benefitImage6 from "./benefits/image-6.png";
-import benefitImage7 from "./benefits/image-7.jpg";
+import benefitImage7 from "./benefits/image-7.png";
 
 import discordBlack from "./socials/discord.svg";
 import facebook from "./socials/facebook.svg";

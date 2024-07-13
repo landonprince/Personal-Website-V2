@@ -47,7 +47,7 @@ const Services = () => {
         />
 
         <div className="relative">
-          <div className="relative z-1 flex items-center h-[39rem] mb-5 p-8 border border-n-1/10 rounded-3xl overflow-hidden lg:p-20 xl:h-[46rem]">
+          <div className="relative z-1 flex xl:items-start items-center h-[39rem] mb-5 p-8 border border-n-1/10 rounded-3xl overflow-hidden lg:p-14 xl:h-[46rem]">
             <div className="absolute top-0 left-0 w-full h-full pointer-events-none md:w-3/5 xl:w-auto">
               <img
                 className="w-full h-full object-cover md:object-right"
@@ -62,16 +62,30 @@ const Services = () => {
               title="Team Skills"
             />
 
-            <div className="relative z-1 max-w-[20rem] ml-auto">
+            <div className="relative z-1 max-w-[22rem] ml-auto">
               <h4 className="h4 mb-4">A profound passion</h4>
-              <p className="body-2 mb-[3rem] text-n-3">
-                Driven by a passion for computer science, I strive to advance my
-                expertise and create innovative tech solutions.
+              <p className="body-2 mb-[2rem] text-n-3">
+                I was born in Dallas, Texas, in 2003. From a young age, I was
+                fascinated by computers, spending countless hours coding and
+                building programs. This early interest grew into a strong
+                passion for computer science.
               </p>
-              <h4 className="h4 mb-4">My skills</h4>
+              <h4 className="h4 mb-4">The road ahead</h4>
+              <p className="body-2 mb-[3rem] text-n-3">
+                The endless possibilities in computer science captivate me,
+                driving my learning and innovation. I am passionate about
+                developing new software and finding revolutionary solutions to
+                problems
+              </p>
             </div>
           </div>
-
+          <div className="hidden xl:flex relative z-2">
+            <img
+              src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=landonprince&theme=tokyonight"
+              alt=""
+              className="absolute w-[37rem] lg:bottom-[5rem] lg:right-[4rem] bottom-[3rem] right-[2rem]"
+            />
+          </div>
           <div className="relative z-1 grid gap-5 lg:grid-cols-2">
             <div className="relative min-h-[39rem] border border-n-1/10 rounded-3xl overflow-hidden">
               <div className="absolute inset-0">

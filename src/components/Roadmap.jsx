@@ -10,7 +10,11 @@ import { smallSphere, stars } from "../assets";
 const Roadmap = () => (
   <Section crosses className="overflow-hidden" id="roadmap">
     <div className="container md:pb-10">
-      <Heading tag="Roadmap" title="What I'm working on" text="s" />
+      <Heading
+        tag="Roadmap"
+        title="What I'm Working on"
+        text="Future projects that are in progress"
+      />
 
       <div className="relative grid gap-6 md:grid-cols-2 md:gap-4 md:pb-[7rem]">
         {roadmap.map((item) => {
@@ -69,10 +73,7 @@ const Roadmap = () => (
         <Gradient />
       </div>
 
-      <div className="flex justify-center mt-12 md:mt-15 xl:mt-20">
-        <Button href="/roadmap">Our roadmap</Button>
-      </div>
-      <div className="hidden relative justify-center mb-[6.5rem] lg:flex">
+      <div className="hidden relative justify-center mb-[6.5rem] pt-40 lg:flex">
         <img
           src={smallSphere}
           className="relative z-1"

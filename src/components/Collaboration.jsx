@@ -4,23 +4,24 @@ import Button from "./Button";
 import Section from "./Section";
 import { LeftCurve, RightCurve } from "./design/Collaboration";
 import Heading from "./Heading";
+import { Gradient } from "./design/Roadmap";
 
 const Collaboration = () => {
   return (
-    <Section crosses customPaddings="pt-28 pb-28">
+    <Section crosses customPaddings="pt-36 pb-36" id="portfolio">
       <Heading
         className="md:max-w-md lg:max-w-2xl pl-4 pb-3 md:pl-0"
         title="Delve Into my Portfolio"
         tag="portfolio"
-        text="Each project "
+        text="Clean and efficient code with practical uses"
       />
       <div className="container lg:flex">
-        <div className="max-w-[35rem]">
+        <div className="max-w-[35rem] pl-4">
           <h4 className="lg:h5 text-2xl mb-4 md:mb-8 max">
             Key skills incorporated into each project
           </h4>
 
-          <ul className="max-w-[22rem] mb-10 md:mb-14 pb-16">
+          <ul className="max-w-[22rem] mb-10 md:mb-14 pb-15">
             {collabContent.map((item) => (
               <li
                 className="mb-3 py-4  border-t border-n-6 w-[30.5rem]"
@@ -37,10 +38,10 @@ const Collaboration = () => {
             ))}
           </ul>
 
-          <Button className="w-52">my github</Button>
+          <Button className="w-52 ">my github</Button>
         </div>
 
-        <div className="lg:ml-auto xl:w-[38rem] mt-4">
+        <div className="lg:ml-auto xl:w-[38rem] mt-4 xl:pr-0 pr-8">
           <p className="body-2 lg:mt-[4.4rem] mb-24 text-n-3 md:mb-28 lg:mb-32 lg:w-[22rem] lg:mx-auto ">
             {collabText}
           </p>

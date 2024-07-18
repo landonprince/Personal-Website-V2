@@ -11,12 +11,12 @@ const Benefits = () => {
       <div className="container relative z-2">
         <Heading
           className="md:max-w-md lg:max-w-2xl"
-          title="My Greatest Projects "
+          title="My Foundational Work "
           tag="portfolio"
-          text="6+ diverse projects "
+          text="Projects that define my programming journey"
         />
 
-        <div className="flex flex-wrap gap-10 mb-10">
+        <div className="flex justify-center flex-wrap gap-10 mb-10">
           {benefits.map((item) => (
             <div
               className="border-[0.01rem] border-[#423d6385] rounded-[2rem] block relative p-0.5 bg-no-repeat bg-[length:100%_100%] md:max-w-[24rem] group"

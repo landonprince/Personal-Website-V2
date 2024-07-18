@@ -27,7 +27,7 @@ const PricingList = () => {
             className="w-full mb-6"
             href={item.price ? "/pricing" : "mailto:contact@jsmastery.pro"}
           >
-            Explore
+            Explore More
           </Button>
 
           <ul>

@@ -16,10 +16,11 @@ import { smallSphere, stars } from "../assets";
 import Generating from "./Generating";
 import Photo from "./Photo";
 import { ScrollParallax } from "react-just-parallax";
+import { curve, heroBackground, robot } from "../assets";
 
 const Services = () => {
   return (
-    <Section id="how-to-use">
+    <Section id="how-to-use" customPaddings="pt-24 pb-24">
       <div className="container">
         <div className="hidden relative justify-center mb-[6.5rem] lg:flex">
           <img
@@ -58,24 +59,24 @@ const Services = () => {
               />
             </div>
             <Photo
-              className="hidden absolute left-[3rem] bottom-[2.7rem] w-[18rem] xl:flex"
+              className="hidden absolute left-[3rem] bottom-[2.7rem] xl:flex"
               title="Team Skills"
             />
 
             <div className="relative z-1 max-w-[22rem] ml-auto">
               <h4 className="h4 mb-4">A profound passion</h4>
-              <p className="body-2 mb-[2rem] text-n-3">
+              <p className="body-2 mb-[2.1rem] text-n-3">
                 I was born in Dallas, Texas, in 2003. From a young age, I was
-                fascinated by computers, spending countless hours coding and
-                building programs. This early interest grew into a strong
-                passion for computer science.
+                fascinated by computers, spending countless hours building
+                programs. This early interest grew into a profound passion for
+                computer science.
               </p>
               <h4 className="h4 mb-4">The road ahead</h4>
-              <p className="body-2 mb-[3rem] text-n-3">
-                The endless possibilities in computer science captivate me,
-                driving my learning and innovation. I am passionate about
-                developing new software and finding revolutionary solutions to
-                problems
+              <p className="body-2 mb-[3rem] text-n-3 ">
+                I am captivated by the infinite possibilities that programming
+                offers and am eager to apply my knowledge. The road ahead
+                consists of honing my skills, as well as creating elegant and
+                efficient software.
               </p>
             </div>
           </div>
@@ -99,7 +100,20 @@ const Services = () => {
               </div>
 
               <div className="absolute inset-0 justify-center flex flex-col p-8 bg-gradient-to-b from-n-8/0 to-n-8/90 lg:p-10">
-                <h4 className="h4 mb-4">Experience</h4>
+                <h4 className="h4 mb-12 hidden lg:flex">
+                  <span className="inline-block relative">
+                    Wide skillset
+                    <img
+                      src={curve}
+                      className="absolute top-full left-0 w-full "
+                      width={624}
+                      height={28}
+                      alt="Curve"
+                    />
+                  </span>
+                </h4>
+
+                <h5 className="h6 mb-4">Front-end skills</h5>
 
                 <ul className="body-2">
                   {brainwaveServices2.map((item, index) => (
@@ -112,7 +126,7 @@ const Services = () => {
                     </li>
                   ))}
                 </ul>
-                <h4 className="h4 mb-4 mt-10">Skills</h4>
+                <h5 className="h6 mb-4 mt-10">Back-end skills</h5>
 
                 <ul className="body-2">
                   {brainwaveServices.map((item, index) => (
@@ -132,10 +146,11 @@ const Services = () => {
 
             <div className="p-4 bg-n-7 rounded-3xl overflow-hidden lg:min-h-[46rem]">
               <div className="py-12 px-4 xl:px-8">
-                <h4 className="h4 mb-4">AI Architect & Researcher</h4>
+                <h4 className="h4 mb-4">Using AI to amplify results</h4>
                 <p className="body-2 mb-[2rem] text-n-3">
-                  The world’s most powerful AI photo and video art generation
-                  engine. What will you create?
+                  The world’s most powerful tool is here, and I am honing in on
+                  its potential capabilities. Utilizing generative AI amplifies
+                  results.
                 </p>
 
                 <ul className="flex items-center justify-between">

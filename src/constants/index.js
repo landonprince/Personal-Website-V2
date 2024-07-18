@@ -66,12 +66,12 @@ export const navigation = [
   {
     id: "1",
     title: "About Me",
-    url: "#pricing",
+    url: "#how-to-use",
   },
   {
     id: "2",
     title: "Portfolio",
-    url: "#how-to-use",
+    url: "#portfolio",
   },
   {
     id: "3",
@@ -109,14 +109,14 @@ export const companyLogos = [
 
 export const brainwaveServices = [
   "Software Engineering",
+  "Data Structures & Algorithms",
   "Artificial Intelligence",
-  "Programming Languages",
 ];
 
 export const brainwaveServices2 = [
-  "Software Design",
-  "Data Structures & Algorithms",
-  "Discrete Structures",
+  "Website Design",
+  "Frameworks & Libraries",
+  "UI & UX Principles ",
 ];
 
 export const brainwaveServicesIcons = [
@@ -135,7 +135,7 @@ export const roadmap = [
     date: "May 2023",
     status: "progress",
     imageUrl: roadmap1,
-    colorful: false,
+    colorful: true,
   },
   {
     id: "1",
@@ -164,7 +164,7 @@ export const roadmap = [
 ];
 
 export const collabText =
-  "Each project in my portfolio is a testament to my dedication to writing clean, efficient code and solving real-world problems.  ";
+  "Each project in my portfolio is a testament to my dedication in writing clean and efficient code to solve real-world problems.  ";
 
 export const collabContent = [
   {

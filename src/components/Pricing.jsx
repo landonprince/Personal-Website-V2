@@ -9,13 +9,13 @@ const Pricing = () => {
     <Section
       className="overflow-hidden"
       id="pricing"
-      customPaddings="pb-28 pt-16"
+      customPaddings="pb-36 pt-16"
     >
       <div className="container relative z-2">
         <Heading
           tag="about me"
           title="Explore my Academic Journey"
-          text="Key information of high school, college, and whats to come"
+          text="Key information related to my high school, college, and whats to come"
         />
 
         <div className="relative">

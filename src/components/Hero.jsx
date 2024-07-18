@@ -9,6 +9,7 @@ import Generating from "./Generating";
 import Notification from "./Notification";
 import CompanyLogos from "./CompanyLogos";
 import Stats from "./Stats";
+import { smallSphere, stars } from "../assets";
 
 const Hero = () => {
   const parallaxRef = useRef(null);

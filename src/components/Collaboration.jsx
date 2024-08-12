@@ -4,7 +4,6 @@ import Button from "./Button";
 import Section from "./Section";
 import { LeftCurve, RightCurve } from "./design/Collaboration";
 import Heading from "./Heading";
-import { Gradient } from "./design/Roadmap";
 
 const Collaboration = () => {
   return (
@@ -38,7 +37,13 @@ const Collaboration = () => {
             ))}
           </ul>
 
-          <Button className="w-52 ">my github</Button>
+          <Button
+            className="w-52 "
+            href="https://github.com/landonprince"
+            newTab={true}
+          >
+            my github
+          </Button>
         </div>
 
         <div className="lg:ml-auto xl:w-[38rem] mt-4 xl:pr-0 pr-8">

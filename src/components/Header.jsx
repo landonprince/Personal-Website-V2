@@ -96,18 +96,22 @@ const Header = () => {
         </nav>
 
         <a
-          href="https://www.linkedin.com/in/your-profile"
+          href="https://www.linkedin.com/in/landon-prince/"
           className="hidden mr-3 lg:block group"
+          target="_blank"
+          rel="noopener noreferrer"
         >
           {linkedinSvg}
         </a>
         <a
-          href="https://www.linkedin.com/in/your-profile"
+          href="https://github.com/landonprince"
           className="hidden mr-4 lg:block group"
+          target="_blank"
+          rel="noopener noreferrer"
         >
           {githubSvg}
         </a>
-        <Button className="hidden lg:flex w-28" href="#login">
+        <Button className="hidden lg:flex w-28" href="#footer" newTab={false}>
           Contact
         </Button>
 

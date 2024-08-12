@@ -1,6 +1,6 @@
 import { photo } from "../assets";
 
-const Notification = ({ className, title }) => {
+const Notification = ({ className }) => {
   return (
     <div
       className={`${

@@ -1,4 +1,3 @@
-import Button from "./Button";
 import Heading from "./Heading";
 import Section from "./Section";
 import Tagline from "./Tagline";
@@ -13,7 +12,7 @@ const Roadmap = () => (
       <Heading
         tag="Roadmap"
         title="What I'm Working on"
-        text="Future projects that are in progress"
+        text="Upcoming projects that are in progress"
       />
 
       <div className="relative grid gap-6 md:grid-cols-2 md:gap-4 md:pb-[7rem]">
@@ -73,10 +72,10 @@ const Roadmap = () => (
         <Gradient />
       </div>
 
-      <div className="hidden relative justify-center mb-[6.5rem] pt-40 lg:flex">
+      <div className="hidden relative justify-center mt-64 mb-12 lg:flex">
         <img
           src={smallSphere}
-          className="relative z-1"
+          className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 pointer-events-none z-1"
           width={255}
           height={255}
           alt="Sphere"

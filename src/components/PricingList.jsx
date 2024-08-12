@@ -1,4 +1,3 @@
-import { check } from "../assets";
 import { pricing } from "../constants";
 import Button from "./Button";
 import { dash } from "../assets";
@@ -23,10 +22,7 @@ const PricingList = () => {
               </>
             )}
           </div>
-          <Button
-            className="w-full mb-6"
-            href={item.price ? "/pricing" : "mailto:contact@jsmastery.pro"}
-          >
+          <Button className="w-full mb-6" href={item.link} newTab={true}>
             Explore More
           </Button>
 

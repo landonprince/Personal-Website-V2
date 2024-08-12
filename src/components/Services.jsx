@@ -13,14 +13,12 @@ import {
   VideoChatMessage,
 } from "./design/Services";
 import { smallSphere, stars } from "../assets";
-import Generating from "./Generating";
 import Photo from "./Photo";
-import { ScrollParallax } from "react-just-parallax";
-import { curve, heroBackground, robot } from "../assets";
+import { curve } from "../assets";
 
 const Services = () => {
   return (
-    <Section id="how-to-use" customPaddings="pt-24 pb-24">
+    <Section id="how-to-use" customPaddings="pt-28 pb-24">
       <div className="container">
         <div className="hidden relative justify-center mb-[6.5rem] lg:flex">
           <img

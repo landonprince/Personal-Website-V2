@@ -1,7 +1,4 @@
-import { notification1 } from "../assets";
-import { notificationImages } from "../constants";
-
-const Notification = ({ className, title }) => {
+const Notification = ({ className }) => {
   return (
     <div
       className={`${

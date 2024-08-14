@@ -252,7 +252,7 @@ export const pricing = [
       "Graduated from Highland Park High School, located in Dallas, Texas",
     features: [
       "Began learning the fundamentals of computer science.",
-      "Graduated Magna Cum Laude with a GPA of 4.23 / 5.00.",
+      "Graduated Magna Cum Laude with a GPA of 4.26 / 5.00.",
       "Earned the AP Scholar award, having taken 9 AP courses.",
       "Active member of the Computer Science National Honor Society.",
     ],

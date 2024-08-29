@@ -73,11 +73,7 @@ export const navigation = [
     title: "Portfolio",
     url: "#portfolio",
   },
-  {
-    id: "3",
-    title: "Roadmap",
-    url: "#roadmap",
-  },
+
   {
     id: "4",
     title: "New account",

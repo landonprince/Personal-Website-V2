@@ -47,9 +47,9 @@ const Services = () => {
 
         <div className="relative">
           <div className="relative z-1 flex xl:items-start items-center h-[39rem] mb-5 p-8 border border-n-1/10 rounded-3xl overflow-hidden lg:p-14 xl:h-[46rem]">
-            <div className="absolute top-0 left-0 w-full h-full pointer-events-none md:w-3/5 xl:w-auto">
+            <div className="absolute top-0 left-0 w-3/5 h-full pointer-events-none">
               <img
-                className="w-full h-full object-cover"
+                className="w-full h-full object-cover object-right"
                 width={800}
                 alt="Smartest AI"
                 height={730}

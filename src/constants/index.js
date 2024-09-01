@@ -104,15 +104,15 @@ export const companyLogos = [
 ];
 
 export const brainwaveServices = [
-  "Software Engineering",
-  "Data Structures & Algorithms",
-  "Artificial Intelligence",
+  "Problem-Solving Skills",
+  "Communication Skills",
+  "Collaboration Skills",
 ];
 
 export const brainwaveServices2 = [
-  "Website Design",
-  "Frameworks & Libraries",
-  "UI & UX Principles ",
+  "Data Structures and Algorithms",
+  "Programming Languages",
+  "Web Development",
 ];
 
 export const brainwaveServicesIcons = [
@@ -160,7 +160,7 @@ export const roadmap = [
 ];
 
 export const collabText =
-  "Each project in my portfolio is a testament to my dedication in writing clean and efficient code to solve real-world problems.  ";
+  "Each project in my portfolio is a testament to my growth as a developer, reflecting my commitment to continuous learning.";
 
 export const collabContent = [
   {
@@ -287,7 +287,7 @@ export const pricing = [
 export const benefits = [
   {
     id: "0",
-    title: "Pixalyze",
+    title: "Pixalyze Image Tool ",
     text: "Pixalyze is an easy-to-use command-line application. It allows for the use of an ever-growing collection of commands to analyze and process images.",
     backgroundUrl: benefitCard1,
     iconUrl: cpp,
@@ -297,7 +297,7 @@ export const benefits = [
   },
   {
     id: "1",
-    title: "PySlice",
+    title: "PySlice Game",
     text: "PySlice is an addictively fun 2D platformer made entirely with Python & Pygame. Play as a katana-wielding ninja and traverse treacherous worlds.",
     backgroundUrl: benefitCard2,
     iconUrl: python,
@@ -329,7 +329,7 @@ export const benefits = [
   },
   {
     id: "4",
-    title: "ChatFlow Manager",
+    title: "Chatflow Manager",
     text: "ChatFlow manager is a program that allows the user to store, retrieve, and manipulate messages. The use of software design patterns is emphasized.",
     backgroundUrl: benefitCard5,
     iconUrl: java,
@@ -339,7 +339,7 @@ export const benefits = [
   },
   {
     id: "5",
-    title: "Image To ASCII",
+    title: "Image > ASCII Converter",
     text: "Image to ASCII is a program that uses the OpenCV library to allow users to convert any image to high-quality ASCII art.",
     backgroundUrl: benefitCard6,
     iconUrl: cpp,

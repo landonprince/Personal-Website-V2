@@ -4,6 +4,7 @@ import Section from "./Section";
 import Arrow from "../assets/svg/Arrow";
 import { GradientLight } from "./design/Benefits";
 import ClipPath from "../assets/svg/ClipPath";
+import { smallSphere, stars } from "../assets";
 
 const Benefits = () => {
   return (
@@ -11,7 +12,7 @@ const Benefits = () => {
       <div className="container relative z-2">
         <Heading
           className="md:max-w-md lg:max-w-2xl"
-          title="My Foundational Work "
+          title="Featured Projects"
           tag="portfolio"
           text="Projects that define my programming journey"
         />
@@ -68,6 +69,24 @@ const Benefits = () => {
               <ClipPath />
             </div>
           ))}
+        </div>
+        <div className="hidden relative justify-center mt-64 mb-32 lg:flex">
+          <img
+            src={smallSphere}
+            className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 pointer-events-none z-1"
+            width={255}
+            height={255}
+            alt="Sphere"
+          />
+          <div className="absolute top-1/2 left-1/2 w-[60rem] -translate-x-1/2 -translate-y-1/2 pointer-events-none">
+            <img
+              src={stars}
+              className="w-full"
+              width={950}
+              height={400}
+              alt="Stars"
+            />
+          </div>
         </div>
       </div>
     </Section>

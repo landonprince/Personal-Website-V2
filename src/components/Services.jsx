@@ -62,19 +62,19 @@ const Services = () => {
             />
 
             <div className="relative z-1 max-w-[22rem] ml-auto">
-              <h4 className="h4 mb-4">A profound passion</h4>
+              <h4 className="h4 mb-4">My Background</h4>
               <p className="body-2 mb-[2.1rem] text-n-3">
-                I was born in Dallas, Texas, in 2003. From a young age, I was
-                fascinated by computers, spending countless hours building
-                programs. This early interest grew into a profound passion for
-                computer science.
+                I was born and raised in Dallas, Texas. From a young age, I was
+                fascinated by computers. My passion for technology only grew
+                stronger, driving me to explore programming and computer
+                science.
               </p>
-              <h4 className="h4 mb-4">The road ahead</h4>
+              <h4 className="h4 mb-4">My Goals</h4>
               <p className="body-2 mb-[3rem] text-n-3 ">
-                I am captivated by the infinite possibilities that programming
-                offers and am eager to apply my knowledge. The road ahead
-                consists of honing my skills, as well as creating elegant and
-                efficient software.
+                I am focusing on honing my technical skills at Vanderbilt
+                University to apply my knowledge effectively. By doing so, I aim
+                to make meaningful contributions to my field and drive impactful
+                change.
               </p>
             </div>
           </div>
@@ -100,7 +100,7 @@ const Services = () => {
               <div className="absolute inset-0 justify-center flex flex-col p-8 bg-gradient-to-b from-n-8/0 to-n-8/90 lg:p-10">
                 <h4 className="h4 mb-12 hidden lg:flex">
                   <span className="inline-block relative">
-                    Wide skillset
+                    My Skills
                     <img
                       src={curve}
                       className="absolute top-full left-0 w-full "
@@ -111,7 +111,7 @@ const Services = () => {
                   </span>
                 </h4>
 
-                <h5 className="h6 mb-4">Front-end skills</h5>
+                <h5 className="h6 mb-4">Technical Skills</h5>
 
                 <ul className="body-2">
                   {brainwaveServices2.map((item, index) => (
@@ -124,7 +124,7 @@ const Services = () => {
                     </li>
                   ))}
                 </ul>
-                <h5 className="h6 mb-4 mt-10">Back-end skills</h5>
+                <h5 className="h6 mb-4 mt-10">Soft Skills</h5>
 
                 <ul className="body-2">
                   {brainwaveServices.map((item, index) => (
@@ -144,11 +144,12 @@ const Services = () => {
 
             <div className="p-4 bg-n-7 rounded-3xl overflow-hidden lg:min-h-[46rem]">
               <div className="py-12 px-4 xl:px-8">
-                <h4 className="h4 mb-4">Using AI to amplify results</h4>
+                <h4 className="h4 mb-4">Technologies I Utilize</h4>
                 <p className="body-2 mb-[2rem] text-n-3">
-                  The world’s most powerful tool is here, and I am honing in on
-                  its potential capabilities. Utilizing generative AI amplifies
-                  results.
+                  C++, Java, Python, C#, C, HTML, CSS, Javascript, React,
+                  Angular, Tailwind, Git, SQL, R, MATLAB, Rust, Go,
+                  SystemVerilog, ARM Assembly, OpenCV, Unity, Godot, GDScript,
+                  Racket.
                 </p>
 
                 <ul className="flex items-center justify-between">
@@ -184,8 +185,8 @@ const Services = () => {
                   alt="Scary robot"
                 />
 
-                <VideoChatMessage />
-                <VideoBar />
+                {/* <VideoChatMessage />
+                <VideoBar /> */}
               </div>
             </div>
           </div>

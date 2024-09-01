@@ -40,7 +40,7 @@ const Hero = () => {
             Learn&nbsp;about me, see my portfolio, get in touch, and more.
           </p>
           <Button className="w-60" href="#how-to-use">
-            Take&nbsp;Tour
+            About&nbsp;Me
           </Button>
         </div>
         <div className="relative max-w-[23rem] mx-auto md:max-w-5xl xl:mb-24">
